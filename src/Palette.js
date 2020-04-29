@@ -26,7 +26,7 @@ export default class Palette extends Component {
                 key={color.id}
                 id={color.id}
                 paletteId={id}
-                showLink={true}
+                showingFullPalette={true}
             />
         })
         return (
